@@ -125,7 +125,16 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'JavaScript (ES6+)',
+    'TypeScript',
+    'React',
+    'Angular',
+    'Node.js',
+    'NextJS',
+    'SQL',
+    'noSQL',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,30 +144,24 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              I'm Naveenkumar Subramani, a seasoned Full Stack Developer based in Bengaluru, KA,
+              with a strong focus on web development. Throughout my career, I've specialized in
+              frontend technologies like React and Angular, as well as backend technologies
+              including Node.js and Express.js.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              I have experience in mobile app development using frameworks like React Native and
+              Next.js, and I excel in creating REST APIs to ensure smooth user experiences across
+              different platforms. In collaborative environments, I leverage tools like Git,
+              Postman, and Jira to contribute effectively to project success.
             </p>
 
             <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
+              I'm committed to design excellence and user-centered thinking in all my projects,
+              whether it's a website, mobile app, or digital product. Let's connect and collaborate
+              on transformative web development journeys together. I'm excited to bring my skills
+              and passion to your next project!
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
@@ -173,7 +176,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/naveen.jpg"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
